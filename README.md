@@ -23,8 +23,8 @@
 
 1.  **Clone Repository:**
     ---bash
-    git clone [Your-Repo-URL]
-    cd [Your-Project-Folder]/backend
+    git clone https://github.com/NekomaNaJa/it-support-ticket-system
+    cd it-support-ticket-system/backend
     ---
 
 2.  **ติดตั้ง Dependencies:**

@@ -23,7 +23,7 @@
 ### 2.1. Clone และ ติดตั้ง
 1.  Clone โปรเจกต์ของคุณไปยัง 'directory' ที่ต้องการ (เช่น '/var/www/it-support-backend'):
     ---bash
-    git clone [Your-Repo-URL] /var/www/it-support-backend
+    git clone https://github.com/NekomaNaJa/it-support-ticket-system /var/www/it-support-backend
     cd /var/www/it-support-backend
     ---
 

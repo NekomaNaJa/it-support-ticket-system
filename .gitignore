@@ -1,0 +1,44 @@
+# ==================================
+# Global / Secrets
+# ==================================
+# (ห้ามอัปโหลดไฟล์ความลับ .env ทั้งหมด)
+.env
+*.env
+.env.*
+
+# (ไฟล์ Log)
+*.log
+
+# ==================================
+# Frontend (React / Vite)
+# ==================================
+# (โฟลเดอร์ขยะที่ใหญ่ที่สุดของ Node.js)
+frontend/node_modules/
+
+# (ไฟล์ Build ที่สร้างอัตโนมัติ)
+frontend/dist/
+
+# (ไฟล์ Cache ของ Vite)
+frontend/.vite/
+
+# ==================================
+# Backend (Laravel)
+# ==================================
+# (โฟลเดอร์ขยะที่ใหญ่ที่สุดของ Composer)
+backend/vendor/
+
+# (เผื่อคุณรัน npm ใน backend)
+backend/node_modules/
+
+# (ไฟล์ Log และ Cache ของ Laravel)
+backend/storage/framework/
+backend/storage/logs/
+
+# (ไฟล์ที่เราสร้างด้วย storage:link)
+backend/public/storage
+
+# (ไฟล์ที่ผู้ใช้อัปโหลดจริงๆ - ห้ามอัปโหลด Backup)
+backend/storage/app/public/
+
+# (ไฟล์ PHPUnit)
+backend/phpunit.result.cache
